@@ -1,5 +1,5 @@
 {
-  "name": "ws",
+  "name": "websocket",
   "description": "ws (v8.8.1) ported for Ruff",
   "version": "1.0.0",
   "author": {
