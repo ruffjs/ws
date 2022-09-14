@@ -2,12 +2,12 @@ var https = require('https');
 var fs = require('fs');
 var ws = require('websocket');
 
-const server = https.createServer({
+var server = https.createServer({
   cert: fs.readFileSync('/Users/young/Desktop/SSL/OWN/server.crt'),
   key: fs.readFileSync('/Users/young/Desktop/SSL/OWN/server.key')
 });
 
-const wss = new ws.WebSocketServer({ server });
+var wss = new ws.WebSocketServer({ server });
 
 wss.on('connection', function connection(ws) {
   ws.on('message', function message(data) {
