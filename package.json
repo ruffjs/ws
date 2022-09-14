@@ -1,7 +1,7 @@
 {
   "name": "websocket",
   "description": "ws (v8.8.1) ported for Ruff",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "author": {
     "name": "Einar Otto Stangvik",
     "email": "einaros@gmail.com",
@@ -19,10 +19,5 @@
   "main": "index.js",
   "engines": {
     "ruff": "^1.1.0"
-  },
-  "ruff": {
-    "dependencies": {
-      "core-js": "1.0.0"
-    }
   }
 }
