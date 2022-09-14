@@ -1,0 +1,23 @@
+{
+  "name": "ws",
+  "description": "ws (v8.8.1) ported for Ruff",
+  "version": "1.0.0",
+  "author": {
+    "name": "Einar Otto Stangvik",
+    "email": "einaros@gmail.com",
+    "url": "http://2x.io"
+  },
+  "keywords": [
+    "HyBi",
+    "Push",
+    "RFC-6455",
+    "WebSocket",
+    "WebSockets",
+    "real-time"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "ruff": "^1.1.0"
+  }
+}
