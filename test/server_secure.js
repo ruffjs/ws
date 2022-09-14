@@ -7,7 +7,7 @@ var server = https.createServer({
   key: fs.readFileSync('/Users/young/Desktop/SSL/OWN/server.key')
 });
 
-var wss = new ws.WebSocketServer({ server });
+var wss = new ws.WebSocketServer({ server: server });
 
 wss.on('connection', function connection(ws) {
   ws.on('message', function message(data) {
