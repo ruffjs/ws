@@ -1,7 +1,7 @@
 {
   "name": "websocket",
   "description": "ws (v8.8.1) ported for Ruff",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "author": {
     "name": "Einar Otto Stangvik",
     "email": "einaros@gmail.com",
