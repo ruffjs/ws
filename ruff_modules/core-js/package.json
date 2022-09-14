@@ -1,0 +1,10 @@
+{
+  "name": "core-js",
+  "description": "ES6-to-ES5 modules",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "",
+  "engines": {
+    "ruff": "^1.1.0"
+  }
+}
